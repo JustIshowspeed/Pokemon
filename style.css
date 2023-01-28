@@ -1,0 +1,55 @@
+body{
+    background-color: darkcyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    background-color: white;
+    height: 500px;
+    background-image: url('./banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    background-color: lightseagreen;
+    padding: 25px;
+    text-align: center;
+}
+
+.nav a {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    color: darkblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 10px 5px 2px red;
+}
+
+.nav a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    border: 2px solid white;
+    display: inline-block;
+    margin: 20px;
+}
+
+.card img {
+    width: 250px;
+    height:  225px;
+    object-fit: cover;
+}
+
+.card h3{
+    text-align: center;
+    color: darkblue;
+}
